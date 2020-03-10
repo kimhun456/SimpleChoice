@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
     xmlns:tools="http://schemas.android.com/tools"
-    package="kimhun456.github.com.simpechoice">
+    package="kimhun456.github.com.simplechoice">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -22,7 +22,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
-            android:name=".MainActivity"
+            android:name="kimhun456.github.com.simplechoice.presentation.ThumbnailActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -33,12 +33,12 @@
         </activity>
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="kimhun456.github.com.simpechoice"
+            android:authorities="kimhun456.github.com.simplechoice"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"></meta-data>
+                android:resource="@xml/file_paths" />
         </provider>
     </application>
 

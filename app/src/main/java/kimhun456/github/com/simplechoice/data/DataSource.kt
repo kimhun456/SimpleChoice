@@ -1,4 +1,4 @@
-package kimhun456.github.com.simpechoice.data
+package kimhun456.github.com.simplechoice.data
 
 import android.content.Context
 import android.net.Uri

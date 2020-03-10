@@ -1,4 +1,4 @@
-package kimhun456.github.com.simpechoice
+package kimhun456.github.com.simplechoice.common
 
 import android.content.Context
 import android.os.Environment

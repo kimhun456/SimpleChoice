@@ -1,4 +1,4 @@
-package kimhun456.github.com.simpechoice.data.local
+package kimhun456.github.com.simplechoice.data.local
 
 import android.content.ContentUris
 import android.content.Context
@@ -7,7 +7,7 @@ import android.provider.MediaStore
 import io.reactivex.Completable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
-import kimhun456.github.com.simpechoice.data.DataSource
+import kimhun456.github.com.simplechoice.data.DataSource
 import java.io.File
 import java.util.concurrent.TimeUnit
 
